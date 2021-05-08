@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+ 
+  <test name="TestRunner-1">
+    <classes>
+      <class name="Opportunity.TC_33_SearchWithDropdownAssignedTo_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TestRunner-2">
+    <classes>    
+      <class name="Opportunity.TC_31_SearchWithDropdownRelatedTo_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TestRunner-3">
+    <classes>
+      <class name="Opportunity.TC_32_SearchWithDropdownExpectedCloseDate_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
