@@ -54,8 +54,9 @@
     <artifactId>jackson-mapper-asl</artifactId>
     <version>1.9.13</version>
 </dependency>
-
-<build>
+  </dependencies>
+  
+  <build>
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven 
 				defaults (may be moved to parent pom) -->
 			<plugins>
@@ -98,8 +99,5 @@
 		
 			</plugins>
 		</pluginManagement>
-	</build>
-
- 
-  </dependencies>
+		</build>
 </project>
