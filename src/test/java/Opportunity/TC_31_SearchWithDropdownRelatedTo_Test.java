@@ -12,7 +12,6 @@ public class TC_31_SearchWithDropdownRelatedTo_Test extends BaseClass
  public void CreateFilter() throws IOException
  {
 	 
-	 
 	 //Step 1: Place the mouse cursor on "Opportunities"  Link
 	 driver.findElement(By.linkText("Opportunities")).click();
 	 
