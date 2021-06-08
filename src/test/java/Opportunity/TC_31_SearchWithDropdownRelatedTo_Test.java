@@ -59,6 +59,7 @@ public class TC_31_SearchWithDropdownRelatedTo_Test extends BaseClass
 	  //Step 7:Click on "Editdelete"
 	  driver.navigate().back();
 	  driver.findElement(By.linkText("Delete")).click();
-	  wd.AlertAccept(driver);  
+	  wd.AlertAccept(driver); 
+	  //driver.close();
  }
 }
